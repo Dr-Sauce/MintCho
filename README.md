@@ -1,60 +1,23 @@
-# Mint Mobile - Home Assistant Integration
+# [MintCho](https://i.namu.wiki/i/95Ex0jbVROK79lTJL_g1RlsJPKnVLo-NglAkA4Kpc_kswBLonKU3baIAtwh3a4QHr-pOROLdfWak6VET7PIhjA.webp)
 
+Mint Mobile Widget for iPhone. Vibe coded by a Mint customer because [Mint never shipped it](https://www.reddit.com/r/mintmobile/comments/ivbg6o/comment/g5q7ia5/).
 
-This integration creates a sensor for each line and displays the remaining data usage for the month. If you have a Mint Mobile family, it will also pull in the data usage for each line. The sensor name includes additional attributes about the line.
+<img width="100" height="100" alt="${f}" src="https://github.com/user-attachments/assets/41dfbab6-aa83-45fc-9e6f-f1b9a4894553" />
 
+# Installation
+1. [Get](https://apps.apple.com/us/app/scriptable/id1405459188) Scriptable.
+2. Download [MintCho](https://github.com/Dr-Sauce/MintCho/releases/latest/download/MintCho.scriptable). (Click [here](https://github.com/Dr-Sauce/MintCho/releases/latest/download/MintCho.LS.scriptable) for lockscreen ver.)
+3. Open **Files** app. Find **MintCho** and long press it. Press `Share` → `Scriptable` → `+ Add to My Scripts`.
+4. Launch **Scriptable**. Run `MintCho`. Login using Mint Mobile account.
+5. Go to homescreen. Long press background. Press `Edit` → `Add Widget` → `Scriptable` → `Add Widget`. Long press **Scriptable** widget → `Edit Widget` → Set `Script` to `MintCho`.
+6. Go to homescreen. Enjoy.
 
-### Attributes Included:
+# Screenshots
+<img width="200" alt="B3864FF6-BFE1-4EFE-9581-56EB162A9976_1_101_o" src="https://github.com/user-attachments/assets/5b6b6cfc-7512-491c-a638-92baa9fff337" />
+<img width="200" alt="AC58803D-D52E-4EFC-9A5E-65391E93044B_1_201_a" src="https://github.com/user-attachments/assets/535cd117-3033-4699-bc9b-82d1ec6a6c15" />
 
-- Number of months purchased for plan
-- Days remaining in month (The number of days left in the data plan month)
-- Days remaining for plan (The number of days left that you have purchased)
-- Phone number
-- Line name
-- Last updated
+# Credentials
+Want to logout? Use this [Shortcut](https://www.icloud.com/shortcuts/38e31414747347fb9ec6399a855985e6).
 
-### Polling Interval
-
-During setup you can specify how often the integration checks Mint Mobile for
-new data. The value is in **hours** and defaults to **12**. Values less than 1
-hour are not allowed.
-
-### Attributes As Additional Sensors
-
-If you want to have the following attributes as additional sensors, during the setup process or under the integration options menu check 'Display Attributes As Additional Sensors'.
-
-- Number of months purchased for plan
-- Days remaining in month (The number of days left in the data plan month)
-- Days remaining for plan (The number of days left that you have purchased)
-
-
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
-
-[![Validate with hassfest](https://github.com/ryanmac8/HA-Mint-Mobile/actions/workflows/combined.yaml/badge.svg)](https://github.com/ryanmac8/HA-Mint-Mobile/actions/workflows/combined.yaml)
-
-![GitHub contributors](https://img.shields.io/github/contributors/ryanmac8/HA-Mint-Mobile)
-![Maintenance](https://img.shields.io/maintenance/yes/2025)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ryanmac8/HA-Mint-Mobile)
-![GitHub last commit](https://img.shields.io/github/last-commit/ryanmac8/HA-Mint-Mobile)
-
----
-
-Enjoying my integration? Help me out and buy me a :coffee: for $3!
-
-[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/Ryanmac8)
-
----
-
-## Installation
-### [HACS](https://hacs.xyz) (Recommended)
-1. Have [HACS](https://github.com/custom-components/hacs) installed, this will allow you to easily update
-2. Add `https://github.com/ryanmac8/HA-Mint-Mobile` as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories) and Type: Integration
-3. Click install under "Mint Mobile", restart your instance.
-
-### Manual Installation
-1. Download this repository as a ZIP (green button, top right) and unzip the archive
-2. Copy the `mintmobile` folder inside the `custom_components` folder to the Home Assistant `/<config path>/custom_components/` directory
-   * You may need to create the `custom_components` in your Home Assistant installation folder if it does not exist
-   * On Home Assistant (formerly Hass.io) and Home Assistant Container the final location should be `/config/custom_components/mintmobile`
-   * On Home Assistant Supervised, Home Assistant Core, and Hassbian the final location should be `/home/homeassistant/.homeassistant/custom_components/mintmobile`
-3. Restart your instance.
+# Source
+[HA-Mint-Mobile](https://github.com/ryanmac8/HA-Mint-Mobile) ([ryanmac8](https://github.com/ryanmac8))
