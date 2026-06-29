@@ -5,7 +5,7 @@ Mint Mobile Widget for iPhone. Vibe coded by a Mint customer because [Mint never
 <img width="100" height="100" alt="${f}" src="https://github.com/user-attachments/assets/41dfbab6-aa83-45fc-9e6f-f1b9a4894553" />
 
 # Installation
-1. [Get](https://apps.apple.com/us/app/scriptable/id1405459188) Scriptable.
+1. [Get](https://apps.apple.com/us/app/scriptable/id1405459188) **Scriptable**.
 2. Download [MintCho](https://github.com/Dr-Sauce/MintCho/releases/latest/download/MintCho.scriptable). (Click [here](https://github.com/Dr-Sauce/MintCho/releases/latest/download/MintCho.LS.scriptable) for lockscreen ver.)
 3. Open **Files** app. Find **MintCho** and long press it. Press `Share` → `Scriptable` → `+ Add to My Scripts`.
 4. Launch **Scriptable**. Run `MintCho`. Login using Mint Mobile account.
