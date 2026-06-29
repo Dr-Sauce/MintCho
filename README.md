@@ -13,8 +13,8 @@ Mint Mobile Widget for iPhone. Vibe coded by a Mint customer because [Mint never
 6. Go to homescreen. Enjoy.
 
 # Screenshots
-<img width="200" alt="B3864FF6-BFE1-4EFE-9581-56EB162A9976_1_101_o" src="https://github.com/user-attachments/assets/5b6b6cfc-7512-491c-a638-92baa9fff337" />
-<img width="200" alt="AC58803D-D52E-4EFC-9A5E-65391E93044B_1_201_a" src="https://github.com/user-attachments/assets/535cd117-3033-4699-bc9b-82d1ec6a6c15" />
+<img width="150" alt="B3864FF6-BFE1-4EFE-9581-56EB162A9976_1_101_o" src="https://github.com/user-attachments/assets/5b6b6cfc-7512-491c-a638-92baa9fff337" />
+<img width="150" alt="AC58803D-D52E-4EFC-9A5E-65391E93044B_1_201_a" src="https://github.com/user-attachments/assets/535cd117-3033-4699-bc9b-82d1ec6a6c15" />
 
 # Credentials
 Want to logout? Use this [Shortcut](https://www.icloud.com/shortcuts/38e31414747347fb9ec6399a855985e6).
