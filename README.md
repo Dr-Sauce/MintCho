@@ -17,7 +17,9 @@ Mint Mobile Widget for iPhone. Vibe coded by a Mint customer because [Mint never
 <img width="150" alt="AC58803D-D52E-4EFC-9A5E-65391E93044B_1_201_a" src="https://github.com/user-attachments/assets/535cd117-3033-4699-bc9b-82d1ec6a6c15" />
 
 # Credentials
-Want to logout? Use this [Shortcut](https://www.icloud.com/shortcuts/38e31414747347fb9ec6399a855985e6).
+Want to login to a different account? Use this [Shortcut](https://www.icloud.com/shortcuts/38e31414747347fb9ec6399a855985e6).
+
+**\* 2FA on your Mint Mobile account needs to be disabled to use MintCho.**
 
 # Source
 [HA-Mint-Mobile](https://github.com/ryanmac8/HA-Mint-Mobile) ([ryanmac8](https://github.com/ryanmac8))
